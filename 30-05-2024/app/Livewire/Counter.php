@@ -22,6 +22,10 @@ class Counter extends Component
         $this->count--;
     }
 
+    public function setcounter ($number) {
+        $this->count = $number;
+    }
+
     public function render()
     {
         return view('livewire.counter');

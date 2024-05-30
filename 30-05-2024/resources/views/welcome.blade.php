@@ -11,6 +11,8 @@
     <h1>Pagina che contiene il componente livewire</h1>
 
     <livewire:counter/>
+    <livewire:search/>
+    <livewire:post/>
 </body>
 </html>
 
