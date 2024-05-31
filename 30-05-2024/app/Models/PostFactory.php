@@ -10,7 +10,7 @@ class PostFactory extends Model
     use HasFactory;
 
     protected $fillable = [
-        'titolo',
+        'title',
         'contenuto',
     ];
 }
