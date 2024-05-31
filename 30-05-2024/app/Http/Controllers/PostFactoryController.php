@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\PostFactory;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
-class PostFactoryController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
